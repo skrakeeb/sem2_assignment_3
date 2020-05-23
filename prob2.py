@@ -1,4 +1,4 @@
-#plotting of the numerical data obatined by running prob2.c
+#plotting the numerical data obatined by running prob2.c
 
 import numpy as np
 import matplotlib.pyplot as plt
