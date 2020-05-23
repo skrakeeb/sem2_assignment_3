@@ -6,8 +6,10 @@
 #include <stdlib.h>
 #include <math.h>
 #include <fftw3.h>
+// run: gcc prob4.c -lfftw3 -lm
+// out: ./a.out
 
-// defining sinc function
+// defining gaussian function
 float f( float x)
 {
 	return exp(- pow(x,2));
