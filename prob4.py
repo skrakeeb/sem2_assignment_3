@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 #the analytical result
 def f(x):
-    return( np.exp(- np.sqrt(np.pi)*(np.pi**2)*(x**2) ))
+    return( np.sqrt(np.pi)*np.exp(- (np.pi**2)*(x**2) ))
      
 
 k, ft_real, ft_img , ft_abs = np.loadtxt("prob4.txt", delimiter= ' ', unpack= True, skiprows= 1)
