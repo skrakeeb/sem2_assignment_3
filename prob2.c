@@ -1,6 +1,8 @@
 /* coded by: rakeeb
    coded for: Fourier transform of sinc function using FFTW3 library 
 */
+// run: gcc prob2.c -lfftw3 -lm
+// out: ./a.out
 
 #include <stdio.h>    
 #include <stdlib.h>
