@@ -46,7 +46,7 @@ void main()
     //data storing 
     FILE *data;
     data = fopen("prob2.txt","w");
-    fprintf(data, "# k, ft_real, ft_img, ft_absolute. delimeter = ' '\n");
+    fprintf(data, "# k, ft_real, ft_img, ft_absolute. delimiter = ' '\n");
 
 	for(i=0; i<numpoints; i++)
 	{
