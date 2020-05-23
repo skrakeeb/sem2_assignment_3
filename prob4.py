@@ -1,5 +1,5 @@
-#plotting of the numerical data obatined by running prob4.c
-
+#plotting the numerical data obatined by running prob4.c
+# cannot find why the two result matches!!
 import numpy as np
 import matplotlib.pyplot as plt
 
